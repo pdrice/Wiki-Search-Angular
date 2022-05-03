@@ -1,0 +1,5 @@
+<div class="container">
+<h1 class="heading title is-2 has-text-centered">Wikipedia Search</h1>
+<app-search-bar (submitted)="onTerm($event)"></app-search-bar>
+<app-page-list [pages]="pages"></app-page-list>
+</div>
